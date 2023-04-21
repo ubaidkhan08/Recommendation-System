@@ -1,6 +1,12 @@
 # Recommendation-System (3 Approaches)
 Here, we try to create a recommendation system containing 'user_id', item_id, and 'ratings' of the items (products) using 3 different approaches and also, trying to merge a few of them for better performance! The three approaches are:
 
+
+#### `Sample Architecture:`
+![alt text](Multi-layer Perceptron/train.png)
+======
+
+
 ## 1. Graph Convolutional Network with Item-based Collaborative Filtering:
 This approach combines the power of graph convolutional networks (GCN) with item-based collaborative filtering to make recommendations. The GCN component is used to learn a representation of the user-item interaction graph, which captures the relationships between users and items, and is then combined with item-based collaborative filtering to make personalized recommendations. The benefits of this approach include:
 
